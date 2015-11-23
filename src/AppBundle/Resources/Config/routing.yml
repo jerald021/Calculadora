@@ -1,0 +1,33 @@
+app_default_index:
+  path: /index/{op1}/{op2}
+  defaults: { _controller: AppBundle:Calculadora:index, op1: 0, op2: 0}
+  requirements:
+    op1: \d+
+    op2: \d+
+
+app_default_suma:
+  path: /suma/{op1}/{op2}
+  defaults: { _controller: AppBundle:Calculadora:suma, op1: 0, op2: 0}
+  requirements:
+    op1: \d+
+    op2: \d+
+
+app_default_resta:
+  path: /resta/{op1}/{op2}
+  defaults: { _controller: AppBundle:Calculadora:resta, op1: 0, op2: 0}
+  requirements:
+    op1: \d+
+    op2: \d+
+
+app_default_multiplicar:
+  path: /multiplicar/{op1}/{op2}
+  defaults: { _controller: AppBundle:Calculadora:multiplicar, op1: 0, op2: 0}
+  requirements:
+    op1: \d+
+    op2: \d+
+
+app_default_dividir:
+  path: /dividir/{op1}/{op2}
+  defaults: { _controller: AppBundle:Calculadora:dividir, op1: 0, op2: 0}
+  requirements:
+    op1: \d+

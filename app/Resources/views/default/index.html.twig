@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <h3>Sumar</h3>
+    <form action="{{ 'suma' }}" method="post" xmlns="http://www.w3.org/1999/html">
+        valor1:
+        <input type="number" name="op1" value="" />
+        valor2:
+        <input type="number" name="op2" value="" />
+        <br/>
+        <button class="btn" type="submit" >Enviar</button>
+    </form>
+
+    <h3>Restar</h3>
+    <form action="{{ 'resta' }}" method="post" xmlns="http://www.w3.org/1999/html">
+        valor1:
+        <input type="number" name="op1" value="" />
+        valor2:
+        <input type="number" name="op2" value="" />
+        <br/>
+        <button type="submit" >Enviar</button>
+    </form>
+
+    <h3>Multiplicar</h3>
+    <form action="{{ 'multiplicar' }}" method="post" xmlns="http://www.w3.org/1999/html">
+        valor1:
+        <input type="number" name="op1" value="" />
+        valor2:
+        <input type="number" name="op2" value="" />
+        <br/>
+        <button type="submit" >Enviar</button>
+    </form>
+
+    <h3>Dividir</h3>
+    <form action="{{ 'dividir' }}" method="post" xmlns="http://www.w3.org/1999/html">
+        valor1:
+        <input type="number" name="op1" value="" />
+        valor2:
+        <input type="number" name="op2" value="" />
+        <br/>
+        <button type="submit" >Enviar</button>
+    </form>
+{% endblock %}

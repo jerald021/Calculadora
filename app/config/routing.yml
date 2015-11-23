@@ -1,0 +1,17 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+app3:
+    resource: "@RationalBunble/Controller/"
+    type:     annotation
+
+app4:
+    resource: "@CalcBundle/Controller/"
+    type:     annotation
+#users:
+#    resource: "@AppBundle/Controller/"
+#    type: annotation
+#app2:
+#    resource: "@AppBundle/Resources/Config/"
+#    prefix: /rutas2
